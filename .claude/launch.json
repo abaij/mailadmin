@@ -1,0 +1,12 @@
+{
+    "version": "0.0.1",
+    "autoPort": false,
+    "configurations": [
+        {
+            "name": "mailadmin",
+            "runtimeExecutable": "php",
+            "runtimeArgs": ["artisan", "serve", "--host=127.0.0.1", "--port=8234"],
+            "port": 8234
+        }
+    ]
+}
